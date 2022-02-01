@@ -8,7 +8,7 @@ from constants import (
 )
 
 MDP_DATA_PATH = f"{ROOT_DIR}/data/mdp"
-OS_PATH = f'{ROOT_DIR}/results'
+OS_PATH = f'{ROOT_DIR}/data'
 
 mdp_playlists = {}
 mdp_tracks = {}
@@ -52,12 +52,12 @@ write_csv_file(
     data=mdp_playlists.values()
 )
 write_csv_file(
-    filename=f'{OS_PATH}//results/mdp_tracks.csv',
+    filename=f'{OS_PATH}/mdp_tracks.csv',
     field_headers=TRACKS_FIELDS,
     data=mdp_tracks.values()
 )
 write_csv_file(
-    filename=f'{OS_PATH}//results/mdp_interactions.csv',
+    filename=f'{OS_PATH}/mdp_interactions.csv',
     field_headers=INTERACTIONS_FIELDS,
     data=mdp_interactions
 )

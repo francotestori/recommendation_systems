@@ -28,4 +28,9 @@ INTERACTIONS_FIELDS = [
     'pos'
 ]
 
+GENRES_FIELDS = [
+    'track_uri',
+    'genres'
+]
+
 TRACKS_CAP = 500

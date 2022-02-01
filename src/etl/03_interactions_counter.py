@@ -1,7 +1,7 @@
 import csv
 from utils import ROOT_DIR, write_pickle_file
 
-INTERACTIONS_CSV_PATH = f"{ROOT_DIR}/results/mdp_interactions.csv"
+INTERACTIONS_CSV_PATH = f"{ROOT_DIR}/data/mdp_interactions.csv"
 OS_PATH = f'{ROOT_DIR}/results'
 
 tracks_count = {}

@@ -5,8 +5,8 @@ from utils import ROOT_DIR, write_pickle_file, read_pickle_file
 from models.base import ArtistMetadata, TrackGenre
 
 TRACKS_INTERACTIONS_FILE_PATH = f'{ROOT_DIR}/results/tracks_interaction_count.pickle'
-TRACKS_DATA_FILE_PATH = f'{ROOT_DIR}/results/mdp_tracks.csv'
-ARTIST_DATA_FILE_PATH = f'{ROOT_DIR}/data/artists.csv.gz'
+TRACKS_DATA_FILE_PATH = f'{ROOT_DIR}/data/mdp_tracks.csv'
+ARTIST_DATA_FILE_PATH = f'{ROOT_DIR}/data/external/artists.csv.gz'
 OS_PATH = f'{ROOT_DIR}/results'
 
 popular_tracks = read_pickle_file(TRACKS_INTERACTIONS_FILE_PATH)
